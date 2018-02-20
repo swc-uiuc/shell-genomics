@@ -19,7 +19,7 @@ keypoints:
 - "Tab completion can reduce errors from mistyping and make work more efficient in the shell."
 ---
 
-## What is a shell and why should I care? TEST2
+## What is a shell and why should I care?
 
 A *shell* is a computer program that presents a command line interface
 which allows you to control your computer using commands entered
@@ -53,7 +53,7 @@ In this lesson you will learn how to use the command line interface to move arou
 ## How to access the shell
 
 On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available
-on your computer. If you're using Windows, you'll need to download a separate program to access the shell.
+on your computer. If you're using Windows, you'll need to download a separate program, [MobaXTerm](https://mobaxterm.mobatek.net/download-home-edition.html) (use Installer Edition) to access the shell.
 
 We will spend most of our time learning about the basics of the shell
 by manipulating some experimental data. Some of the data we're going to be working with is quite large, and
