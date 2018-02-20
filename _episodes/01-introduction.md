@@ -64,37 +64,29 @@ we're going to be working with data on a remote server.
 
 You can log-in to the remote server using the instructions 
 [here](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/#logging-onto-a-cloud-instance). 
-Your instructor will supply the ip_address and password that you need to login.
+Your instructor will supply the usename and password that you need to login. 
 
-Each of you will have a different ip_address. This will 
+Each of you will have a different usename and password. This will 
 prevent us from accidentally changing each other's files as we work through the
-exercises. The password will be the same for everyone. 
+exercises. 
 
-After loging on, you will see a screen showing something like this: 
+After logging on, you will see a screen showing something like this: 
 
 ~~~
-Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-48-generic x86_64)
+Creating home directory for hpcbio40.
+#################################################################
+#                                                               #
+#               Institute for Genomic Biology                   #
+#          University of Illinois Urbana-Champaign              #
+#            http://biocluster2.igb.illinois.edu                 #
+#                                                               #
+#################################################################
 
- * Documentation:  https://help.ubuntu.com/
+*Please follow the guide at http://help.igb.illinois.edu/Biocluster2
+*All data on this cluster is NOT backed up.  It costs $10 per terabyte
+per month
+*Please email help@igb.illinois.edu with any questions
 
-  System information as of Wed Oct 25 21:24:00 UTC 2017
-
-  System load:  0.0                Processes:           147
-  Usage of /:   48.6% of 98.30GB   Users logged in:     0
-  Memory usage: 28%                IP address for eth0: 172.31.30.246
-  Swap usage:   0%
-
-  Graph this data and manage this system at:
-    https://landscape.canonical.com/
-
-  Get cloud support with Ubuntu Advantage Cloud Guest:
-    http://www.ubuntu.com/business/services/cloud
-
-483 packages can be updated.
-322 updates are security updates.
-
-
-Last login: Wed Oct 25 21:24:02 2017 from 104.220.130.189
 ~~~
 {: .output}
 
