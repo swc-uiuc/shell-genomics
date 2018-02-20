@@ -1,8 +1,6 @@
 # Shell Genomics lessons
 
-An introduction to the Unix shell for people working with genomics data. This lesson is part of the [Data Carpentry Genomics Workshop](http://www.datacarpentry.org/genomics-workshop/). Please see http://www.datacarpentry.org/shell-genomics/ for a rendered version of this material.
-
-## TEST
+An introduction to the Unix shell for people working with genomics data. This lesson is part of the [Data Carpentry Genomics Workshop](http://www.datacarpentry.org/genomics-workshop/). Please see http://swc-uiuc.github.io/shell-genomics/ for a rendered version of this material.
 
 ## Contribution
 
