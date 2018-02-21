@@ -115,7 +115,7 @@ Several commands are frequently used to create, inspect, rename, and delete file
 
 > ## Preparation Magic
 >
-> If you type the command:
+> OPTIONAL: If you type the command:
 > `PS1='$ '`
 > into your shell, followed by pressing the <kbd>Enter</kbd> key,
 > your window should look like our example in this lesson.  
@@ -141,8 +141,8 @@ i.e.,
 the directory that the computer assumes we want to run commands in
 unless we explicitly specify something else.
 Here,
-the computer's response is `/home/dcuser`,
-which is the top level directory within our cloud system:
+the computer's response is `/home/a-m/hpcbioXX`,
+which is the user's home directory within our biocluster system:
 
 ~~~
 $ pwd
@@ -150,19 +150,23 @@ $ pwd
 {: .bash}
 
 ~~~
-/home/dcuser
+/home/a-m/hpcbioXX
 ~~~
 {: .output}
 
 Let's look at how our file system is organized.  
 
 At the top is our `dcuser` directory, which holds all the 
-subdirectories and files.
-
-Inside that directory are some other directories:
+subdirectories and files. We can see what files and subdirectories are in this directory by running `ls`,
+which stands for "listing":
 
 ~~~
-dc_sample_data	FastQC	Trimmomatic-0.32
+$ ls
+~~~
+{: .bash}
+
+~~~
+dc_sample_data	dropbox
 ~~~
 {: .output}
 
@@ -180,8 +184,7 @@ $ cd dc_sample_data
 ~~~
 {: .bash}
 
-We can see files and subdirectories are in this directory by running `ls`,
-which stands for "listing":
+We can see files and subdirectories are in this directory by running `ls`  command again:
 
 ~~~
 $ ls
@@ -212,7 +215,7 @@ sra_metadata/  untrimmed_fastq/
 Anything with a "/" after it is a directory. Things with a "*" after them are programs. If
 there are no decorations, it's a file.
 
-`ls` has lots of other options. To find out what they are, we can type:
+`ls` has lots of other options. To find out what they are in the command's manual, we can type:
 
 ~~~
 $ man ls
@@ -236,8 +239,8 @@ to quit.
 > > {: .bash}
 > > 
 > > ~~~
-> > drwxr-x--- 2 dcuser dcuser 4096 Jul 30  2015 sra_metadata
-> > drwxr-xr-x 2 dcuser dcuser 4096 Jul 30  2015 untrimmed_fastq
+> > drwxrwxr-x 1 hpcbio40 hpcbio40  8734 Feb 20 16:30 sra_metadata
+> > drwxrwxr-x 1 hpcbio40 hpcbio40 90884 Feb 20 16:30 untrimmed_fastq
 > > ~~~
 > > {: .output}
 > > 
