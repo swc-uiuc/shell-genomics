@@ -88,7 +88,7 @@ $ ls /usr/bin/*.sh
 {: .bash}
 
 ~~~
-/usr/bin/amuFormat.sh  /usr/bin/gettext.sh  /usr/bin/gvmap.sh
+/usr/bin/gettext.sh  /usr/bin/lesspipe.sh  /usr/bin/setup-nsssysinit.sh
 ~~~
 {: .output}
 
@@ -100,8 +100,8 @@ Lists every file in `/usr/bin` that ends in the characters `.sh`.
 > The root directory is the highest level directory in your file system and contains
 > files that are important for your computer to perform its daily work, but which you usually won't
 > have to interact with directly. In our case,
-> the root directory is two levels above our home directory, so `cd` or `cd ~` will take you to `/home/dcuser`
-> and `cd /` will take you to `/`, which is equivalent to `~/../../`. Try not to worry if this is confusing,
+> the root directory is three levels above our home directory, so `cd` or `cd ~` will take you to `/home/a-m/hpcbioXX`
+> and `cd /` will take you to `/`, which is equivalent to `~/../../../`. Try not to worry if this is confusing,
 > it will all become clearer with practice.
 {: .callout}
 
@@ -184,6 +184,12 @@ You will be glad you learned this when you need to re-run very complicated comma
 > {: .solution}
 {: .challenge}
 
+> ## What is a .fastq file?
+> 
+> The .fastq file format is the standard for sequencing data. For more information on
+> the specifics of what a .fastq file contains and how it is formatted, please see 
+> [these slides](go.illinois.edu/dc-genomics-supp)
+{: .callout}
 
 ## Examining Files
 
