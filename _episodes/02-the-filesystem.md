@@ -240,7 +240,7 @@ directory in `a-m`, which is a directory in `home`, which is a directory in `/`.
 Now enter the following command:
 
 ~~~
-$ cd home/a-m/hpcbioXX/dc_sample_data/.hidden
+$ cd /home/a-m/hpcbioXX/dc_sample_data/.hidden
 ~~~
 {: .bash}
 
