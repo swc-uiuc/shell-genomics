@@ -190,7 +190,7 @@ You will be glad you learned this when you need to re-run very complicated comma
 > 
 > The .fastq file format is the standard for sequencing data. For more information on
 > the specifics of what a .fastq file contains and how it is formatted, please see 
-> [these slides](go.illinois.edu/dc-genomics-supp)
+> [these slides](https://go.illinois.edu/dc-genomics-supp)
 {: .callout}
 
 We now know how to switch directories, run programs, and look at the
