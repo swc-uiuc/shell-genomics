@@ -3,7 +3,7 @@ layout: lesson
 root: .
 ---
 
-The shell is a program that presents a command line interface which allows you to control your computer using commands entered with a keyboard instead of controlling graphical user interfaces (GUIs) with a mouse/keyboard combination.
+The shell is a program that presents a command line interface which allows you to control your computer or a remote computer using commands entered with a keyboard instead of controlling graphical user interfaces (GUIs) with a mouse/keyboard combination.
 
 There are many reasons to learn about the shell.
 
@@ -19,9 +19,9 @@ There are many reasons to learn about the shell.
 >
 > #### Prerequisites
 >
-> This lesson uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given information on how
-> to log-in to the AMI during the workshop. Learners using these materials for self-directed study will need to set up their own
-> AMI. Information on setting up an AMI and accessing the required data is provided on the [Genomics Workshop setup page](http://www.datacarpentry.org/genomics-workshop/setup/).
+> This lesson uses data hosted on the University of Illinois' Biocluster computing cluster. Workshop participants will be given information on how
+> to log-in to Biocluster during the workshop. Learners using these materials for self-directed study will need to set up their own
+> Amazon Machine Instance (AMI). Information on setting up an AMI and accessing the required data is provided on the [Genomics Workshop setup page](http://www.datacarpentry.org/genomics-workshop/setup/).
 {: .prereq}
 
 > ## For Instructors
