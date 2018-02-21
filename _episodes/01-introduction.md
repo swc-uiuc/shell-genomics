@@ -63,7 +63,7 @@ downloading the data and downloading and installing all of the software,
 we're going to be working with data on a remote server. 
 
 You can log-in to the remote server using the instructions 
-[here](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/#logging-onto-a-cloud-instance). 
+[here](https://go.illinois.edu/dc-genomics-supp). 
 Your instructor will supply the usename and password that you need to login. 
 
 Each of you will have a different usename and password. This will 
