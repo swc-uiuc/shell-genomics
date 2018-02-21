@@ -232,15 +232,15 @@ You will see:
 
 This is the full name of your home directory. This tells you that you
 are in a directory called `hpcbioXX`, which sits inside a directory called `a-m`, which sits inside a directory called
-`home` which sits inside the very top directory in the hierarchy. The
+`home`, which sits inside the very top directory in the hierarchy. The
 very top of the hierarchy is a directory called `/` which is usually
-referred to as the *root directory*. So, to summarize: `dcuser` is a
-directory in `home` which is a directory in `/`.
+referred to as the *root directory*. So, to summarize: `hpcbioXX` is a
+directory in `a-m`, which is a directory in `home`, which is a directory in `/`.
 
 Now enter the following command:
 
 ~~~
-$ cd /home/dcuser/dc_sample_data/.hidden
+$ cd home/a-m/hpcbioXX/dc_sample_data/.hidden
 ~~~
 {: .bash}
 
@@ -323,7 +323,7 @@ $ ls ~
 {: .bash}
 
 ~~~
-dc_sample_data	FastQC	Trimmomatic-0.32
+dc_sample_data	dropbox
 ~~~
 {: .output}
 
