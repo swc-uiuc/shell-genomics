@@ -184,14 +184,14 @@ You will be glad you learned this when you need to re-run very complicated comma
 > {: .solution}
 {: .challenge}
 
+## Examining Files
+
 > ## What is a .fastq file?
 > 
 > The .fastq file format is the standard for sequencing data. For more information on
 > the specifics of what a .fastq file contains and how it is formatted, please see 
 > [these slides](go.illinois.edu/dc-genomics-supp)
 {: .callout}
-
-## Examining Files
 
 We now know how to switch directories, run programs, and look at the
 contents of directories, but how do we look at the contents of files?
@@ -430,7 +430,7 @@ $ ls -l
 {: .bash}
 
 ~~~
--rw-r--r-- 1 dcuser dcuser 43332 Nov 15 23:02 SRR098026-backup.fastq
+-rw-r--r-- 1 hpcbio40 hpcbio40 43332 Feb 20 22:12 SRR098026-backup.fastq
 ~~~
 {: .output}
 
@@ -443,7 +443,7 @@ that deal with your permissions (as the file owner).
 Here the three positions that relate to the file owner are `rw-`. The `r` means that you have permission to read the file, the `w` 
 indicates that you have permission to write to (i.e. make changes to) the file, and the third position is a `-`, indicating that you 
 don't have permission to carry out the ability encoded by that space (this is the space where `x` or executable ability is stored, we'll 
-talk more about this in [a later lesson](http://www.datacarpentry.org/shell-genomics/05-writing-scripts/)).
+talk more about this in [a later lesson](https://swc-uiuc.github.io/shell-genomics/05-writing-scripts/)).
 
 Our goal for now is to change permissions on this file so that you no longer have `w` or write permissions. We can do this using the `chmod` (change mode) command and subtracting (`-`) the write permission `-w`. 
 
@@ -454,7 +454,7 @@ $ ls -l
 {: .bash}
 
 ~~~
--r--r--r-- 1 dcuser dcuser 43332 Nov 15 23:02 SRR098026-backup.fastq
+-r--r--r-- 1 hpcbio40 hpcbio40 43332 Feb 20 22:12 SRR098026-backup.fastq
 ~~~
 {: .output}
 
