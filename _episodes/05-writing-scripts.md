@@ -185,7 +185,7 @@ It will look like nothing happened, but now if you look at `scripted_bad_reads.t
 ## Making the script into a program
 
 We had to type `bash` because we needed to tell the computer what program to use to run this script. Instead we can turn this script into its own program. We need to tell it that it's a program by making it executable. We can do this by changing the file permissions. We
-talked about permissions in [an earlier episode](http://www.datacarpentry.org/shell-genomics/03-working-with-files/).
+talked about permissions in [an earlier episode](https://swc-uiuc.github.io/shell-genomics/03-working-with-files/).
 
 First, let's look at the current permissions.
 
@@ -195,7 +195,7 @@ $ ls -l bad-reads-script.sh
 {: .bash}
 
 ~~~
--rw-rw-r-- 1 dcuser dcuser 0 Oct 25 21:46 bad-reads-script.sh
+-rw-rw-r-- 1 hpcbio40 hpcbio40 82 Feb 20 22:51 bad-reads-script.sh
 ~~~
 {: .output}
 
@@ -214,7 +214,7 @@ $ ls -l bad-reads-script.sh
 {: .bash}
 
 ~~~
--rwxrwxr-x 1 dcuser dcuser 0 Oct 25 21:46 bad-reads-script.sh
+-rwxrwxr-x 1 hpcbio40 hpcbio40 82 Feb 20 22:51 bad-reads-script.sh
 ~~~
 {: .output}
 
@@ -227,4 +227,4 @@ $ ./bad-reads-script.sh
 
 The script should run the same way as before, but now we've created our very own computer program!
 
-You will learn more about writing scripts in [a later lesson](http://www.datacarpentry.org/wrangling-genomics/02-automating_a_workflow/). 
+You will learn more about writing scripts in [a later lesson](https://swc-uiuc.github.io/wrangling-genomics/02-automating_a_workflow/). 
