@@ -68,7 +68,7 @@ $ pwd
 {: .bash}
 
 ~~~
-/home/dcuser/dc_sample_data
+/home/a-m/hpcbioXX/dc_sample_data
 ~~~
 {: .output}
 
@@ -95,7 +95,7 @@ prints the contents of `/home`, which is one level up from your root directory.
 
 > ## Finding hidden directories
 >
-> First navigate to the `dc_sample_data` directory. There is a hidden directory within this directory. Explore the options for `ls` to 
+> First navigate to the `dc_sample_data` directory. There is a hidden directory within this directory. Explore the manual options for `ls` to 
 > find out how to see hidden directories. List the contents of the directory and 
 > identify the name of the text file in that directory.
 > 
@@ -226,12 +226,12 @@ $ pwd
 You will see: 
 
 ~~~
-/home/dcuser
+/home/a-m/hpcbioXX
 ~~~
 {: .output}
 
 This is the full name of your home directory. This tells you that you
-are in a directory called `dcuser`, which sits inside a directory called
+are in a directory called `hpcbioXX`, which sits inside a directory called `a-m`, which sits inside a directory called
 `home` which sits inside the very top directory in the hierarchy. The
 very top of the hierarchy is a directory called `/` which is usually
 referred to as the *root directory*. So, to summarize: `dcuser` is a
