@@ -156,7 +156,7 @@ $ pwd
 
 Let's look at how our file system is organized.  
 
-At the top is our `dcuser` directory, which holds all the 
+We start in our `hpcbioXX` home directory, which holds all the 
 subdirectories and files. We can see what files and subdirectories are in this directory by running `ls`,
 which stands for "listing":
 
