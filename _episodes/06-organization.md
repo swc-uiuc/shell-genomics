@@ -63,7 +63,7 @@ $ pwd
 You should see the output: 
 
 ~~~
-/home/dcuser  
+/home/a-m/hpcbioXX  
 ~~~
 {: .output}
 
@@ -213,7 +213,7 @@ Add a date line and comment to the line where you have created the directory, fo
 `bash` treats the `#` character as a comment character. Any text on a line after a `#` is ignored by bash when evaluating the text as code.
 
 Next, remove any lines of the history that are not relevant by navigating to those lines and using your 
-delete key. Save your file and close `nano`.
+delete key. Also remove the line numbers. Save your file and close `nano`.
 
 Your file should look something like this: 
 
@@ -239,7 +239,7 @@ $ ls
 {: .bash}
 
 ~~~
-dc_sample_data	dc_workshop_log_2017_10_27.txt  FastQC	Trimmomatic-0.32
+dc_sample_data  dc_workshop_log_2018_02_21.txt  dropbox
 ~~~
 {: .output}
 
@@ -253,7 +253,7 @@ $ ls
 {: .bash}
 
 ~~~
-dc_sample_data	dc_workshop dc_workshop_log_2017_10_27.txt  FastQC	Trimmomatic-0.32
+dc_sample_data  dc_workshop  dc_workshop_log_2018_02_21.txt  dropbox
 ~~~
 {: .output}
 
