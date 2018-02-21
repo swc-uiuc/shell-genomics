@@ -343,7 +343,8 @@ $ pw<tab><tab>
 {: .bash}
 
 ~~~
-pwd         pwd_mkdb    pwhich      pwhich5.16  pwhich5.18  pwpolicy
+pwck              pwd               pwhistory_helper  pwscore
+pwconv            pwdx              pwmake            pwunconv
 ~~~
 {: .output}
 
